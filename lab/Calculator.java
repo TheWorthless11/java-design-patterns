@@ -16,7 +16,7 @@ public class Calculator {
     }
 
     public double divide(double a, double b) {
-        if (b == 0) throw new IllegalArgumentException("Division by zero");
+        if (b == 0) throw new IllegalArgumentException("Zero division not allowed (feature)");
         return a / b;
     }
 }
